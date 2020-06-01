@@ -14,6 +14,7 @@ public class NestedJson {
 		System.out.println("Purchase Amount :" + totalAmount);
 		// Print Title of the first course
 		String titleFirstCourse = js.get("courses[2].title");
+		String titleFirstCourse1 = js.get("courses[1].title");
 		System.out.println("Title of the first course :" + titleFirstCourse);
 
 		// print all courses and their respective prices
