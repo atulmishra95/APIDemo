@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-05-29T17:39:24Z" name="Default suite" finished-at="2020-05-29T17:39:31Z" duration-ms="6755">
+  <suite name="Default suite" duration-ms="9725" started-at="2020-06-27T15:06:45Z" finished-at="2020-06-27T15:06:55Z">
     <groups>
     </groups>
-    <test started-at="2020-05-29T17:39:24Z" name="Default test" finished-at="2020-05-29T17:39:31Z" duration-ms="6755">
-      <class name="demo_API.Postman">
-        <test-method signature="Testing()[pri:0, instance:demo_API.Postman@79efed2d]" started-at="2020-05-29T17:39:24Z" name="Testing" finished-at="2020-05-29T17:39:31Z" duration-ms="6720" status="PASS">
+    <test name="Default test" duration-ms="9725" started-at="2020-06-27T15:06:45Z" finished-at="2020-06-27T15:06:55Z">
+      <class name="demo_API.CrudOperation">
+        <test-method status="PASS" signature="Testing()[pri:0, instance:demo_API.CrudOperation@31ef45e3]" name="Testing" duration-ms="9631" started-at="2020-06-27T15:06:45Z" finished-at="2020-06-27T15:06:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testing -->
-      </class> <!-- demo_API.Postman -->
+      </class> <!-- demo_API.CrudOperation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
